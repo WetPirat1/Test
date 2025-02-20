@@ -1,5 +1,5 @@
 import React from "react";
-
+import Logo from "../assets/Logo.png";
 function Footer() {
   return (
     <footer className="bg-[#0A0A1E] text-white py-12">
@@ -30,11 +30,7 @@ function Footer() {
 
         {/* Логотип TradeBlade */}
         <div className="md:justify-end">
-          <img
-            src="src/assets/Logo.png"
-            alt="TradeBlade Logo"
-            className="h-30 "
-          />
+          <img src={Logo} alt="TradeBlade Logo" className="h-30 " />
           <div className="text-center md:text-left">
             <p className="text-gray-400">
               © 2022 TradeBlade. All rights reserved

@@ -1,6 +1,7 @@
 // Hero.jsx
 import React from "react";
 import EmailInput from "./EmailInput";
+import HeroImg from "../assets/Hero.png";
 
 export default function Hero() {
   return (
@@ -21,7 +22,7 @@ export default function Hero() {
         </div>
         <div className="order-1 md:order-2 w-full md:w-auto">
           <img
-            src="src/assets/Hero.png"
+            src={HeroImg}
             alt="Hero Image"
             className="w-full md:w-auto hover:opacity-90 hover:scale-105 transition-all duration-300"
           />
